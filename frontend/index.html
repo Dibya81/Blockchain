@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stellar Balance Checker 🌌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <h1 class="title">💫 Stellar Balance Checker</h1>
+    <p class="subtitle">View the balance of any Stellar public address instantly</p>
+
+    <div class="card glass">
+      <input type="text" id="addressInput" placeholder="Enter Stellar Public Key (G...)" />
+      
+      <div class="network-select">
+        <select id="networkSelect">
+          <option value="https://horizon.stellar.org">Mainnet</option>
+          <option value="https://horizon-testnet.stellar.org">Testnet</option>
+        </select>
+      </div>
+
+      <button id="checkBtn">Check Balance 🚀</button>
+
+      <div id="result" class="result-area"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>✨ Built with ❤️ by <strong>Your Name</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
